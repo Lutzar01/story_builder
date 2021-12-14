@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyString
+  genre: MyString
+  teller_id: 1
+  characters_user_id: 1
+
+two:
+  title: MyString
+  description: MyString
+  genre: MyString
+  teller_id: 1
+  characters_user_id: 1

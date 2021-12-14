@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @story.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @story.description %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @story.genre %>
+</p>
+
+<p>
+  <strong>Teller:</strong>
+  <%= @story.teller_id %>
+</p>
+
+<p>
+  <strong>Characters user:</strong>
+  <%= @story.characters_user_id %>
+</p>
+
+<%= link_to 'Edit', edit_story_path(@story) %> |
+<%= link_to 'Back', stories_path %>
