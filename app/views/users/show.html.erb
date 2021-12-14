@@ -25,6 +25,8 @@
   
 <hr>
   <h1>characters</h1>
-  <%= @user.first %> 
-  <%= @user.last %>
-  
+  <% @user.characters.each do |character| %>
+    <hr></hr>
+   <%= link_to character.name, character %>
+  <%end %>
+ 

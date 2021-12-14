@@ -8,7 +8,7 @@ users = User.create( first: 'fred', last: 'schoeneman', email: 'eamilfred@email.
 characters = Character.create([{name: 'SpaceCowboy'}, {name: 'Wizard'}, {name: 'DogWalker'}])
 
 story_names = %w[starwars kilbill reservoirdogs ]
-character_names = %w[biker, hiker, fisher, chopper, swimmer, reader, speaker, looker]
+character_names = %w[biker hiker fisher chopper swimmer reader speaker looker]
 
 adam = User.where(first: 'adam').first 
 
